@@ -1,0 +1,17 @@
+platformName=Android
+deviceName=Pixel_3_API_28
+AUTOMATION_NAME=UiAutomator2
+appium_version=1.16.0
+platFormVersion=9.0
+
+# this is the uuid value (run command- adb device)
+# UDID_Value = 9a21f35a (for my phone, it should be "authorised")
+# UDID_Value = emulator-5554 (for emulator)
+
+
+UDID_Value = emulator-5554
+APK_FILE= src/main/resources/apks/app-debug.apk
+APP_PACKAGE_NAME = com.porter.android.contacts
+APP_ACTIVITY_NAME =
+ANDROID_DRIVER_URL = http://localhost:4723/wd/hub
+appName = app-debug.apk
